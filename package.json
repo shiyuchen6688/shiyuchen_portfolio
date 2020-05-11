@@ -4,10 +4,12 @@
   "description": "Responsive portfolio website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Shiyu Chen",
   "license": "ISC",
+  "homepage": "https://shiyuchen6688.github.io/portfolio_web_v2",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0"
