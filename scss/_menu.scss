@@ -99,7 +99,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg"); // ../ means going out one folder
+      background: url("../dist/img/portrait.jpg"); // ../ means going out one folder
       border-radius: 50%; // make it a circle
       border: solid 3px $secondary-color;
     }
